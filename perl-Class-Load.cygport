@@ -1,0 +1,8 @@
+CPAN_AUTHOR=drolsky
+inherit perl
+
+NAME="perl-Class-Load"
+VERSION=0.20
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl class loader module"
