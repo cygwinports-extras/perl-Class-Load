@@ -1,8 +1,12 @@
-CPAN_AUTHOR=drolsky
+CPAN_AUTHOR=ether
 inherit perl
 
 NAME="perl-Class-Load"
-VERSION=0.20
+VERSION=0.23
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl class loader module"
+
+ARCH=noarch
+
+REQUIRES="${NAME}-XS"
